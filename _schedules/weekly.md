@@ -1,7 +1,5 @@
 ---
 timeline:
-  - '9:00 AM'
-  - '9:30 AM'
   - '10:00 AM'
   - '10:30 AM'
   - '11:00 AM'
@@ -18,49 +16,37 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
+  - '6:30 PM'
 schedule:
   - name: Monday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 11:00 AM
+        end: 12:00 PM
+        location: Rice 440
   - name: Tuesday
+    events:
+      - name: Lecture
+        start: 5:00 PM
+        end: 6:15 PM
+        location: Olsson 011
   - name: Wednesday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 11:00 AM
+        end: 12:00 PM
+        location: Rice 440
   - name: Thursday
-  - name: Friday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
+        start: 5:00 PM
+        end: 6:15 PM
+        location: Olsson 011
+  - name: Friday
+    events:
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 11:00 AM
+        end: 12:00 PM
+        location: Rice 440s
 ---
