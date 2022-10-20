@@ -5,6 +5,7 @@ title: The Internet
 Feb 2
 : [Networks](#)
   : [3.1](#), [2.2](#), [2.3](#)
+: **HW 1 Due**{: .label .label-purple }
 
 Feb 7
 : [The Internet: A Brief History](#)

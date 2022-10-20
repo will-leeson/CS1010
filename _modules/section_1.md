@@ -18,4 +18,3 @@ Jan 26
 Jan 31
 : [Data and Computing at Scale](#)
   : [1.1](#)
-: **HW 1 Due**{: .label .label-purple }
