@@ -17,7 +17,7 @@ title: CS1010
 tagline: Introduction to Information Technology
 description: A course to help students become technology literate and learn about the basics of CS
 author: Will Leeson
-baseurl: '/CS1010' # the subpath of your site, e.g. /blog
+baseurl: 'CS1010' # the subpath of your site, e.g. /blog
 url: 'https://will-leeson.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
