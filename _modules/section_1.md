@@ -3,7 +3,7 @@ title: The Computer
 ---
 
 Jan 19
-: [A Brief History of Computing](#)
+: [Intro and A Brief History of Computing](#)
   : [1.1](#)
 
 Jan 24
