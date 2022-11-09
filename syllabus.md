@@ -15,7 +15,7 @@ description: The course syllabus
 | TBD         	| Teaching Assistant 	|                       	|               	|
 
 ## Course Description
-This course serves as an introduction to computer science to those outside of the Computer Science major, and more broadly SEAS. The course catalog states, "Students will learn to recognize computational problems and develop basic skill sets to solve future problems in their discipline of study". As such, we will look at the major facets of information technology to give students a deep enough understanding that will allow them to identify problems which information technologies can solve. This will allow them to identify ways to solve the problem themselves or convey their it to an expert so that they may help them solve them.
+This course serves as an introduction to computer science to those outside of the Computer Science major, and more broadly SEAS. The course catalog states, "Students will learn to recognize computational problems and develop basic skill sets to solve future problems in their discipline of study". As such, we will look at the major facets of information technology to give students a deep enough understanding that will allow them to identify problems which information technologies can solve. This will allow them to to solve the problem themselves or convey their it to an expert so that they may help them solve them.
 
 Topics covered include the history of computing, how computers operate, the internet, programming basics, and the effects of information technology on society.
 
@@ -34,18 +34,18 @@ No textbook is required.
 - Exams - 40%
 
 ### Letter Grade Cutoffs
-A+ : [98,100)
-A  : [93, 98)
-A- : [90, 93)
-B+ : [88, 90)
-B  : [83, 88)
-B- : [80, 83)
-C+ : [78, 80)
-C  : [73, 78)
-C- : [70, 73)
-D+ : [68, 70)
-D  : [63, 68)
-D- : [60, 63)
+A+ : [98,100),
+A  : [93, 98),
+A- : [90, 93),
+B+ : [88, 90),
+B  : [83, 88),
+B- : [80, 83),
+C+ : [78, 80),
+C  : [73, 78),
+C- : [70, 73),
+D+ : [68, 70),
+D  : [63, 68),
+D- : [60, 63),
 F :  [ 0, 60)
 
 ### Course Policies
