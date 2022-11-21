@@ -3,11 +3,11 @@ title: The Computer
 ---
 
 Jan 19
-: [Intro and A Brief History of Computing](#)
+: [Introduction](#)
   : [1.1](#)
 
 Jan 24
-: [What makes up a computer?](#)
+: [A brief history of Computing](#)
   : [1.1](#)
 
 Jan 26
