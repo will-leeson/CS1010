@@ -1,24 +1,30 @@
-from typing import Tuple
+import pygame
+import sys
+import random
 import numpy as np
+from gui import *
 
-def game_setup(word_file_loc: str) -> str:
-    words = []
+def init_game(word_file_loc):
+    # TODO: Read in words from the text file into a list
+    wordlist = []
     word_file = open(word_file_loc)
     for line in word_file:          # Read each line in the file
-        words.append(line.strip())  # Add the line to the word list (without newlines)
+        wordlist.append(line.strip())  # Add the line to the word list (without newlines)
 
-    word = np.random.choice(words)
+    # TODO: Randomly select and return a word from the word list
+    word = np.random.choice(wordlist)
+    return wordlist, word
 
-    return word
 
-def eval_guess(word: str, guess:str) -> str:
+def eval_guess(word, guess):
+    print(word)
     evaluation = ""
     misses = []
     unmatched_word = ""
     unmatched_guess = ""
     for i, (letter_word, letter_guess) in enumerate(zip(word,guess)):
         if letter_word == letter_guess:
-            evaluation+=letter_guess
+            evaluation+="$"
         else:
             unmatched_word += letter_word
             unmatched_guess += letter_guess
@@ -29,47 +35,25 @@ def eval_guess(word: str, guess:str) -> str:
         if letter_guess in unmatched_word:
             evaluation = evaluation[:i] + "*" + evaluation[i+1:]
             unmatched_word = unmatched_word.replace(letter_guess, "_", 1)
-
+    
     return evaluation
 
-def game_loop(word: str) -> int:
-    num_guesses = 0
 
-    print("The word has " + str(len(word)) + " letters.") 
-    guess = None
+def checkValidInput(current_guess_string, wordlist):
+    # TODO: Check if the current guess is in the list of words
+    check1 = current_guess_string in wordlist
 
-    while guess != word:
-        guess = input("Make a guess: ")
-        if len(guess) != len(word):
-            print("Your guess is", len(guess), "letters and the word is", len(word), "letters. Try again.")
-            continue
+    # TODO: Check if the current guess is 5 characters long
+    check2 = len(current_guess_string) == 5
 
-        eval = eval_guess(word=word, guess=guess)
-        print(eval)
-        num_guesses+=1
+    # TODO: Return True if both of the above are satisfied, False otherwise
+    return check1 and check2
 
-    return num_guesses
 
 def main():
-    print("=============================================")
-    print("Welcome to Wordle!")
-    print("Here is how the game works, I will choose")
-    print("a word. I will tell you how many letters")
-    print("are in the word. You then have to guess")
-    print("the word. If you get a letter in the right")
-    print("spot, I'll let you know. If you guess a")
-    print("letter thats in the word, but in the wrong")
-    print("spot, I'll let you know as well. Try to guess")
-    print("the word in the least amount of guesses.")
-    print("=============================================")
-    print()
+    file_path = "./words.txt"
+    wordlist, word = init_game(file_path)
+    runner(wordlist, word)
 
-    word = game_setup(word_file_loc="test.txt")
-
-    num_guesses = game_loop(word)
-    print("It took you", num_guesses, "tries")
-
-
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
