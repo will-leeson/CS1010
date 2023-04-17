@@ -5,10 +5,14 @@ import numpy as np
 from gui import *
 
 def init_game(word_file_loc):
-    # TODO: Read in words from the text file into a list
+    word_file = open(word_file_loc)
     wordlist = []
+    for line in word_file:
+        word = line.strip()
+        wordlist.append(word)
 
     # TODO: Randomly select and return a word from the word list
+    # Hint: random.shuffle(a_list) will shuffle a_list
     word = ""
 
     return wordlist, word
@@ -19,6 +23,7 @@ def eval_guess(word, guess):
     # Incorrect character (#)
     # Correct character, incorrect spot (*)
     # Correct character, correct spot ($)
+    # Example: If the word if "pulls" and the user guesses "plump", the evaluation string should be $**##
 
     evaluation = ""
 
