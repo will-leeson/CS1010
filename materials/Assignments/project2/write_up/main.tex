@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in,9in}]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+\pagestyle{fancy}
+\fancyhead[L]{CS1010 -- Intro to Information Technology}
+\fancyhead[R]{Project - Testing a Program}
+
+\section*{Overview}
+For this project, you will be testing a program made to play the game Twenty One.
+The goal of the game is to have a hand which is closer to the value 21 than the dealer
+without going over. If you go over, you lose. This game is played with 4 typical
+52 card decks shuffled together. Cards are scored as follows. If the card has a number
+on it, its value is that number. If the card has a face on it (Jack, Queen, or King), it
+is worth 10 points. The Ace is worth 11 points. The game starts by dealing two cards to 
+the player and the dealer. The player will know what cards they have, and they will know
+one of the dealers cards. The player will be asked if they want another card. If they say yes,
+they will be dealt a card and continue being given the opportunity to take another card until
+they decide to stop. If at any point, they go over 21 points, they hand is ended and they lose.
+
+If they don't go over, the dealer will begin accepting cards. The dealer \textbf{must} continue
+taking cards until they have 16 or more points. Once they are over, they \textbf{must stop}. 
+Once the dealer stops, we compare hands. Whoever is closer to 21 without going over wins. If
+players have the same hand, it is a tie.
+
+Players accumulate score overtime, starting with 0. If they win a hand, they get 1 point. 
+If they tie, they get 0 points. If they lose, the lose a point. If they get exactly 21, they
+get 2 points. Each time a player plays a hand, they will be given the opportunity to play another
+or quit. 
+
+Below are 10 things I want you to check are working correctly in the program.
+\begin{itemize}
+    \item The game ends when a player goes over 21
+    \item The dealer behaves correctly when taking cards
+    \item The deck contains the right amount of cards
+    \item The deck is shuffled each time
+    \item Dealing a card actually removes it from the deck
+    \item Each card is scored correctly
+    \item A card is only dealt if the user inputs 'y'
+    \item A users score is correctly maintained between hands
+    \item Players hands grow when dealt a card
+    \item Players receive the correct reward after each hand
+\end{itemize}
+
+Of the 10 things, I have intentionally changed the program to make 3 incorrect. For each item, do the following:
+\begin{enumerate}
+    \item Test the item
+    \item If you find the bullet point can be violated
+    \begin{enumerate}
+        \item Describe how it can be violated (2 pts)
+        \item Find what is causing the violation and explain (3 pts)
+        \item Fix the violation and describe how you fixed it (4 pts) (If you can't figure out how to fix it, describe how it could be fixed for partial credit)
+    \end{enumerate}
+    \item If you find the bullet point can't be violated
+    \begin{enumerate}
+        \item Describe how you tested the program or parts of the program (2 pts)
+        \item Explain why you believe this shows the bullet point can't be violated (3 pts)
+    \end{enumerate}
+\end{enumerate}
+
+When submitting your project, submit a write-up and the code after you've edited it. These should be in two separate files,
+a Document file (doc, docx, pdf, etc.) and a Python file (.py). If you do not submit a Python file, you will receive not
+credit for 2c (12pts total).
+
+When you test this program, you may find a bug not related to the items listed above. To check if its a bug,
+look at the description in the first three paragraphs of this writeup. If you find the program doesn't act
+according to this description, you found a bug I didn't know about! If this is the case, I will give at most 5\% extra credit.
+To receive the half the extra credit, describe the bug you found (How did you expect the program to behave? How did it behave?).
+To receive the rest of the extra credit, implement a fix for the bug.
+
+\end{document}
