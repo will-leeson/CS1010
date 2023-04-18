@@ -56,9 +56,6 @@ def get_score(human_hand, dealer_hand):
         if human_hand_score > 21:
             print("You busted :(")
             score = -1
-        elif human_hand_score == 21:
-            print("You got 21!")
-            score = 2
         elif dealer_hand_score > 21:
             print("The dealer busted, you won!")
             score = 1
@@ -102,7 +99,7 @@ def play_hand(shoe):
         if human_hand_score > 21:
             should_deal = False
 
-    while dealer_hand_score <= 16:
+    while dealer_hand_score < 16:
         card = deal_card(shoe)
         print("The dealer got a", card)
         dealer_hand.append(card)
