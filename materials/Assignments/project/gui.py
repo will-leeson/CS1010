@@ -2,7 +2,7 @@ import pygame
 import sys
 import random
 import numpy as np
-from wordle import *
+from wordle_starter import *
 
 pygame.init()
 
