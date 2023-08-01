@@ -1,42 +1,29 @@
 ---
-title: The Internet
+title: Areas of Computing
 ---
 
-Feb 2
-: [Networks](#)
-  : [3.1](#), [2.2](#), [2.3](#)
-: **HW 1 Due**{: .label .label-purple }
+Sep-19
+: [Machine Learning and AI](#)
+  : [1.1](#)
 
-Feb 7
-: [The Internet: A Brief History](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
+Sep-21
+: No Class
 
-Feb 9
-: [Internet In the Modern Age](#)
-  : [8.2](#)
-: **HW 2 Available**{: .label .label-purple }
+Sep-26
+: [Excel and Databases](#)
+  : [1.1](#)
 
-Feb 14
-: [Building Websites In the Modern Age](#)
-  : [8.3](#)
-: **HW 2 Due**{: .label .label-purple }
-: **Project 1 Available**{: .label .label-red }
+Sep-28
+: [The Ethics of Computing](#)
+  : [1.1](#)
 
-Feb 16
-: [The Internet as a Resource](#)
-  : [8.4](#)
+Oct-3
+: Reading Day (No Class)
 
-Feb 21
-: Building Your Own Website: Lab
-  : [8.4](#)
-
-Feb 23
-: Building Your Own Website: Lab
-  : [8.4](#)
-
-Feb 28
+Oct-5
 : [Midterm Review](#)
-: **Project 1 Due**{: .label .label-red }
+  : [1.1](#)
 
-Mar 2
-: Midterm
+Oct-10
+: [Midterm](#)
+  : [1.1](#)

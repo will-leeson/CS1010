@@ -1,40 +1,65 @@
 ---
-title: Programming
+title: Basic Programming in Python
 ---
 
-Mar 14
-: [Algorithms: Think like a Computer](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Oct-12
+: [Introduction To Python](#)
+  : [1.1](#)
 
-Mar 16
-: [Pseudo Code - Sketching You Problem](#)
-  : [3.1](#), [2.2](#), [2.3](#)
-: **HW 3 Available**{: .label .label-purple }
+Oct-17
+: [Expressions and Datatypes](#)
+  : [1.1](#)
 
-Mar 21
-: [Data Types](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Oct-19
+: [Conditions](#)
+  : [1.1](#)
 
-Mar 23
-: [Introduction to Python: Variables](#)
-  : [3.1](#), [2.2](#), [2.3](#)
-: **HW 3 Due**{: .label .label-purple }
+Oct-24
+: [Lab Day](#)
+  : [1.1](#)
 
-Mar 28
-: [Conditional Statements](#)
+Oct-26
+: [Data Structures](#)
+  : [1.1](#)
 
-Mar 30
+Oct-31
 : [Loops](#)
+  : [1.1](#)
 
-Apr 4
-: [Functions](#)
-: **Project 2 Available**{: .label .label-red }
+Nov-2
+: [Testing/Debugging](#)
+  : [1.1](#)
 
-Apr 7
-: [Testing and Debugging](#)
+Nov-7
+: Election Day (No Class)
 
-Apr 11
-: [Programming Languages: A Crash Course](#)
+Nov-9
+: [Lab Day](#)
+  : [1.1](#)
 
-Apr 13
-: Programming Project Lab
+Nov-14
+: [Functions/Libraries](#)
+  : [1.1](#)
+
+Nov-16
+: [Algorithms](#)
+  : [1.1](#)
+
+Nov-21
+: [Lab Day](#)
+  : [1.1](#)
+
+Nov-23
+: Thanksgiving Recess (No Class)
+
+Nov-28
+: [Software and Game Dev](#)
+  : [1.1](#)
+
+Nov-30
+: [Lab Day](#)
+  : [1.1](#)
+
+Dec-5
+: [Lab Day](#)
+  : [1.1](#)

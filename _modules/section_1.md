@@ -1,20 +1,36 @@
 ---
-title: The Computer
+title: The Computer and The Internet
 ---
 
-Jan 19
+Aug-22
+: [Introduction](#)
+  : [1.1](#)
+
+Aug-24
 : [A Brief History of Computing](#)
   : [1.1](#)
 
-Jan 24
-: [What makes up a computer?](#)
-  : [1.1](#)
-
-Jan 26
+Aug-29
 : [How do computers work?](#)
   : [1.1](#)
-: **HW 1 Available**{: .label .label-purple }
 
-Jan 31
-: [Data and Computing at Scale](#)
+Aug-31
+: [Logic](#)
+  : [1.1](#)
+<!-- : **HW 1 Available**{: .label .label-purple } -->
+
+Sep-5
+: [Tech Problem-Solving](#)
+  : [1.1](#)
+
+Sep-7
+: [Networks](#)
+  : [1.1](#)
+
+Sep-12
+: [The Internet](#)
+  : [1.1](#)
+
+Sep-14
+: [The Cloud and Web Technologies](#)
   : [1.1](#)
