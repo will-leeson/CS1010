@@ -17,14 +17,13 @@ timeline:
   - '5:00 PM'
   - '5:30 PM'
   - '6:00 PM'
-  - '6:30 PM'
 schedule:
   - name: Monday
     events:
       - name: Office Hours
-        start: 11:00 AM
-        end: 12:00 PM
-        location: Rice 440
+        start: 3:30 PM
+        end: 5:00 PM
+        location: TBD
   - name: Tuesday
     events:
       - name: Lecture
@@ -34,19 +33,13 @@ schedule:
   - name: Wednesday
     events:
       - name: Office Hours
-        start: 11:00 AM
-        end: 12:00 PM
-        location: Rice 440
+        start: 3:30 PM
+        end: 5:00 PM
+        location: TBD
   - name: Thursday
     events:
       - name: Lecture
         start: 5:00 PM
         end: 6:15 PM
         location: Olsson 011
-  - name: Friday
-    events:
-      - name: Office Hours
-        start: 11:00 AM
-        end: 12:00 PM
-        location: Rice 440s
 ---
