@@ -2,6 +2,10 @@
 title: Areas of Computing
 ---
 
+Sep-14
+: [The Cloud and Web Technologies](#)
+  : [1.1](#)
+
 Sep-19
 : [Machine Learning and AI](#)
   : [1.1](#)

@@ -30,7 +30,3 @@ Sep-7
 Sep-12
 : [The Internet](#)
   : [1.1](#)
-
-Sep-14
-: [The Cloud and Web Technologies](#)
-  : [1.1](#)
