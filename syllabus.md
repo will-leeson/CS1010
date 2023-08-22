@@ -10,8 +10,8 @@ description: The course syllabus
 
 | Name        	| Role               	| Email                 	| Office Hours  	|
 |-------------	|--------------------	|-----------------------	|---------------	|
-| Will Leeson 	| Instructor         	| will-leeson@gmail.com 	| Mon/Wed 3:30-5pm 	|
-| TBD         	| Teaching Assistant 	|  TBD        | TBD           	|
+| Will Leeson 	| Instructor         	| will-leeson@gmail.com 	| Friday 10-11:30am 	|
+| Rory McDaniel    | Teaching Assistant 	|  rorytm@virginia.edu  | Mon 3-4pm/Wed 10-11am           	|
 
 ### Course Description:
 “Any sufficiently advanced technology is indistinguishable from magic.” - Arthur C. Clarke. 

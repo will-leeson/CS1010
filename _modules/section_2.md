@@ -3,31 +3,31 @@ title: Areas of Computing
 ---
 
 Sep-14
-: [The Cloud and Web Technologies](#)
-  : [1.1](#)
+: The Cloud and Web Technologies
+
 
 Sep-19
-: [Machine Learning and AI](#)
-  : [1.1](#)
+: Machine Learning and AI
+
 
 Sep-21
 : No Class
 
 Sep-26
-: [Excel and Databases](#)
-  : [1.1](#)
+: Excel and Databases
+
 
 Sep-28
-: [The Ethics of Computing](#)
-  : [1.1](#)
+: The Ethics of Computing
+
 
 Oct-3
 : Reading Day (No Class)
 
 Oct-5
-: [Midterm Review](#)
-  : [1.1](#)
+: Midterm Review
+
 
 Oct-10
-: [Midterm](#)
-  : [1.1](#)
+: Midterm
+
