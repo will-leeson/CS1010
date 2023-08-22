@@ -18,7 +18,7 @@ description: A listing of all the course staff members.
 {% if num_teaching_assistants != 0 %}
 ## Teaching Assistants
 
-{% for staffer in teaching_assistants %}
+{% for staffer in teaching_assistants reversed %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
