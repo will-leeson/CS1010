@@ -2,63 +2,53 @@
 title: Basic Programming in Python
 ---
 
-Oct-12
+Oct-9
 : Introduction To Python
 
-
-Oct-17
+Oct-11
 : Expressions and Datatypes
 
-
-Oct-19
+Oct-16
 : Conditions
 
-
-Oct-24
+Oct-18
 : Lab Day
 
-
-Oct-26
+Oct-23
 : Data Structures
 
-
-Oct-31
+Oct-25
 : Loops
 
-
-Nov-2
+Oct-30
 : Testing/Debugging
 
-
-Nov-7
+Nov-1
 : Election Day (No Class)
 
-Nov-9
+Nov-6
 : Lab Day
 
-
-Nov-14
+Nov-8
 : Functions/Libraries
 
-
-Nov-16
+Nov-13
 : Algorithms
 
-
-Nov-21
+Nov-15
 : Lab Day
 
-
-Nov-23
+Nov-20
 : Thanksgiving Recess (No Class)
 
-Nov-28
+Nov-22
 : Software and Game Dev
 
-
-Nov-30
+Nov-27
 : Lab Day
 
-
-Dec-5
+Nov-29
 : Lab Day
+
+Dec-4
+: TBD

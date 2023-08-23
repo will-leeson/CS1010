@@ -20,32 +20,32 @@ timeline:
 schedule:
   - name: Monday
     events:
-      - name: Office Hours - Rory
-        start: 3:00 PM
-        end: 4:00 PM
-        location: Zoom (See canvas for link)
+      - name: Lecture
+        start: 5:00 PM
+        end: 6:15 PM
+        location: Olsson 011
   - name: Tuesday
     events:
-      - name: Lecture
-        start: 5:00 PM
+      - name: Office Hours - Rory
+        start: 5:15 PM
         end: 6:15 PM
-        location: Olsson 011
+        location: Zoom (Link on Canvas)
   - name: Wednesday
     events:
-      - name: Office Hours - Rory
-        start: 10:00 AM
-        end: 11:00 PM
-        location: Zoom (See canvas for link)
-  - name: Thursday
-    events:
       - name: Lecture
         start: 5:00 PM
         end: 6:15 PM
         location: Olsson 011
+  - name: Thursday
+    events:
+      - name: Office Hours - Rory
+        start: 2:00 PM
+        end: 3:00 PM
+        location: Zoom (Link on Canvas)
   - name: Friday
     events:
       - name: Office Hours - Will
         start: 10:00 AM
-        end: 11:30 PM
+        end: 11:30 AM
         location: TBD
 ---
