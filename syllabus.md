@@ -11,7 +11,7 @@ description: The course syllabus
 | Name        	| Role               	| Email                 	| Office Hours  	|
 |-------------	|--------------------	|-----------------------	|---------------	|
 | Will Leeson 	| Instructor         	| will-leeson@gmail.com 	| Friday 10-11:30am 	|
-| Rory McDaniel    | Teaching Assistant 	|  rorytm@virginia.edu  | Mon 3-4pm/Wed 10-11am           	|
+| Rory McDaniel    | Teaching Assistant 	|  rorytm@virginia.edu  | Tue 5:15-6:15pm/Thur 2-3pm           	|
 
 ### Course Description:
 “Any sufficiently advanced technology is indistinguishable from magic.” - Arthur C. Clarke. 
@@ -22,13 +22,13 @@ It is tempting to believe that computers, and information technology as a whole,
 None
 
 ### Text(s): 
-None. Lecture slides and any supplemental material will be provided on Collab.
+None. Lecture slides and any supplemental material will be provided on Canvas.
 
 ### Credit Hours: 
 3
 
 ### Course Logistics:
-Lectures will be delivered Tuesday and Thursday in Olsson 011 from 5-6:15 for the duration of the semester.
+Lectures will be delivered Monday and Wednesday in Olsson 011 from 5-6:15 for the duration of the semester.
 
 Assignments will be turned in electronically unless otherwise specified.
 
