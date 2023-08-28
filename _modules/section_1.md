@@ -7,7 +7,8 @@ Aug-23
   : [Slides](/CS1010/materials/slides/01%20-%20Course%20Introduction.pdf)
 
 Aug-28
-: A Brief History of Computing
+: A Brief History of Computing 
+  : [Slides](/CS1010/materials/slides/02%20-%20A%20Brief%20History%20of%20Computing.pdf)
 
 
 Aug-30
