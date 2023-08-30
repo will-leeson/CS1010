@@ -13,6 +13,7 @@ Aug-28
 
 Aug-30
 : How do computers work?
+  : [Slides](/CS1010/materials/slides/03%20-%20How%20do%20computers%20work.pdf)
 
 Sep-4
 : Logic
