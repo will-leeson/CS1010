@@ -16,7 +16,8 @@ Aug-30
   : [Slides](/CS1010/materials/slides/03%20-%20How%20do%20computers%20work.pdf)
 
 Sep-4
-: Logic
+: Boolean Logic
+  : [Slides](/CS1010/materials/slides/04%20-%20Boolean%20Logic.pdf)
 
 Sep-6
 : Networks
