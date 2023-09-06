@@ -21,6 +21,7 @@ Sep-4
 
 Sep-6
 : Networks
+  : [Slides](/CS1010/materials/slides/05%20-%20Networks.pdf)
 
 Sep-11
 : The Internet
