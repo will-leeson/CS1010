@@ -25,6 +25,7 @@ Sep-6
 
 Sep-11
 : The Internet
+  : [Slides](/CS1010/materials/slides/06%20-%20The%20Internet.pdf)
 
 
 <!-- : **HW 1 Available**{: .label .label-purple } -->
