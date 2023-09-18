@@ -8,6 +8,7 @@ Sep-13
 
 Sep-18
 : Machine Learning and AI
+    : [Slides](/CS1010/materials/slides/09%20-%20Machine%20Learning%20and%20AI.pdf)
 
 Sep-20
 : Excel and Databases
