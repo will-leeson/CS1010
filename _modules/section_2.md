@@ -12,6 +12,7 @@ Sep-18
 
 Sep-20
 : Excel and Databases
+    : [Slides](/CS1010/materials/slides/10%20-%20Spreadsheets%20and%20Databases.pdf)
 
 Sep-25
 : Midterm Review
