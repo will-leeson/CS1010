@@ -24,10 +24,11 @@ Oct-2
 : Reading Day (No Class)
 
 Oct-4
-: Tech Problem Solving
+: The Ethics of Computing
+    : [Slides](/CS1010/materials/slides/11%20-%20Ethics.pdf)
 
 Oct-9
-: The Ethics of Computing
+: Tech Problem Solving
 
 Oct-11
 : Everything you wanted to know about CS* (*But Were Afraid To Ask)
