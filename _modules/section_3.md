@@ -33,16 +33,16 @@ Nov-15
 : Functions/Libraries
 
 Nov-20
-: Algorithms
+: Coding Catch-Up
 
 Nov-22
-: Lab Day
-
-Nov-27
 : Thanksgiving Recess (No Class)
 
+Nov-27
+: Algorithms
+
 Nov-29
-: Software and Game Dev
+: Lab Day
 
 Dec-4
 : Lab Day
