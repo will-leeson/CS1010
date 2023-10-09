@@ -29,6 +29,7 @@ Oct-4
 
 Oct-9
 : Tech Problem Solving
+    : [Slides](/CS1010/materials/slides/07%20-%20Tech%20Problem%20Solving.pdf)
 
 Oct-11
 : Everything you wanted to know about CS* (*But Were Afraid To Ask)
