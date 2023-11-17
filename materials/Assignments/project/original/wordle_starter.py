@@ -1,16 +1,20 @@
 from typing import Tuple
-import numpy as np
+from random import choice
 
 def game_setup(word_file_loc: str) -> str:
     words = []
     word_file = open(word_file_loc)
     
-    # TODO: Read each line in the file
-    #       Add the line to the list words (without newlines)
+    # Loop through each line in the file
+    for line in word_file:
+        # We need to strip the "enter" character at the end
+        words.append(line.strip())
 
-    word = np.random.choice(words)
+    # Randomly selects a word
+    word = choice(words)
+    
+    # TODO: Return the word at the end of the function
 
-    return word
 
 def eval_guess(word: str, guess:str) -> str:
     # This string will tell them how they did
@@ -29,13 +33,13 @@ def eval_guess(word: str, guess:str) -> str:
 def game_loop(word: str) -> int:
     num_guesses = 0
 
-    #print("The word has " + str(len(word)) + " letters.") 
     guess = None
 
     while guess != word:
-        guess = input("Make a guess: ")
         
-        # TODO: Check that guess has the same number of letters as the word
+        guess = ""
+        
+        # TODO: Check that guess has 5 letters
         #       If this isn't the case, tell them and have them make another guess
 
         eval = eval_guess(word=word, guess=guess)
@@ -57,6 +61,8 @@ def main():
     print()
 
     word = game_setup(word_file_loc="test.txt")
+    print(word)
+    exit()
 
     num_guesses = game_loop(word)
     print("It took you", num_guesses, "tries")

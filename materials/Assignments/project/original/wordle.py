@@ -1,5 +1,5 @@
 from typing import Tuple
-import numpy as np
+from random import choice
 
 def game_setup(word_file_loc: str) -> str:
     words = []
@@ -7,7 +7,7 @@ def game_setup(word_file_loc: str) -> str:
     for line in word_file:          # Read each line in the file
         words.append(line.strip())  # Add the line to the word list (without newlines)
 
-    word = np.random.choice(words)
+    word = choice(words)
 
     return word
 

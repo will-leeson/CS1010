@@ -16,26 +16,23 @@
 \begin{figure}[h!]
     \centering
     \fbox{\includegraphics[width=0.6\textwidth]{wordle.png}}
-    \caption{Example for the secret word \emph{``LATCH"}.}
+    \caption{Example for the secret word \emph{``CRANE"}.}
 \end{figure}
 
 \vspace{1cm}
 
-Of the code provided, the only file that you are allowed to modify is \emph{wordle\_starter.py}, which contains starter code for the project. Everything related to the graphical user interface (GUI) will be handled for you. To start the program and boot up the GUI, simply run \emph{wordle\_starter.py}. Your job will be to program the logic behind Wordle, which requires your implementation of three methods, outlined in the following subsections.
+Of the code provided, the only file that you are allowed to modify is \emph{wordle\_starter.py}, which contains starter code for the project. To start the program, simply run \emph{wordle\_starter.py}. Your job will be to program the logic behind Wordle, which requires your implementation of three methods, outlined in the following subsections.
 
-\pagebreak
-
-\subsection{Part 1: Initialize the Game (10 pts.)}
-\hspace{\parindent} To select a secret word and to determine whether or not a guess is valid, \emph{Wordle} uses a long list of ``valid words." The file \emph{words.txt} (provided for you) contains over two thousand valid 5-letter words, one per line. Your job is to implement the \emph{init\_game()} method, which accepts the file path  (of type \emph{string}) as input, and outputs a list of all the words in the file, along with a \underline{randomly selected} secret word. Implement the following inside of the \emph{init\_game()} method:
+\subsection{Part 1: Initialize the Game (5 pts.)}
+\hspace{\parindent} To select a secret word and to determine whether or not a guess is valid, \emph{Wordle} uses a long list of ``valid words." The file \emph{words.txt} (provided for you) contains over two thousand valid 5-letter words, one per line. Your job is to implement the \emph{init\_game()} method, which accepts the file path  (of type \emph{string}) as input, and outputs a \underline{randomly selected} secret word. Implement the following inside of the \emph{init\_game()} method:
 
 \begin{enumerate}
 \itemsep0em 
-\item{Randomly select a word from the list.}
-\item{Return the list and the secret word.}
+\item{Return the secret word.}
 \end{enumerate}
 
-\subsection{Part 2: Verify a Guess (10 pts)}
-\hspace{\parindent}Next, it is necessary to check whether or not a user's guess is valid. For this part, your job is to implement the \emph{checkValidInput()} method, which accepts the user's guess and the list of valid words as input, and outputs \emph{True} if the guess is valid, and \emph{False} otherwise. Implement the following inside of the \emph{checkValidInput()} method:
+\subsection{Part 2: The Game Loop (15 pts)}
+\hspace{\parindent}Now that we have a word selected, we must begin accepting user input in what is called the ``Game Loop''. This is a loop that will continue until the game is over.
 
 \begin{enumerate}
 \itemsep0em 
