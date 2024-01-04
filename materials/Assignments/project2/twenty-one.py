@@ -31,7 +31,7 @@ def get_hand_score(hand):
     score = 0
 
     for card in hand:
-        if card == 'J' or card == 'Q' or card == 'K': #Bug replace card == K with hand == K
+        if card == 'J' or card == 'Q' or card == 'K':
             score+=10
         elif card == 'A':
             score+=11

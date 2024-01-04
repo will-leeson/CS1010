@@ -18,19 +18,20 @@ Oct-30
 : Data Structures
 
 Nov-1
-: Election Day (No Class)
-
-Nov-6
 : Loops
 
-Nov-8
+Nov-6
 : Testing/Debugging
 
+Nov-8
+: Election Day (No Class)
+
 Nov-13
-: Lab Day
+: Functions/Libraries
 
 Nov-15
-: Functions/Libraries
+: Lab Day
+
 
 Nov-20
 : Coding Catch-Up
